@@ -1,4 +1,4 @@
-[![header](https://raw.githubusercontent.com/izag8216/fontpair/main/header.svg)](https://github.com/izag8216/fontpair)
+[![fontpair](header.svg)](https://github.com/izag8216/fontpair)
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
