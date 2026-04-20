@@ -1,61 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
-      <stop offset="50%" style="stop-color:#16213e"/>
-      <stop offset="100%" style="stop-color:#0f3460"/>
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#e94560"/>
-      <stop offset="100%" style="stop-color:#ff6b6b"/>
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
     </linearGradient>
     <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#533483"/>
-      <stop offset="100%" style="stop-color:#e94560"/>
+      <stop offset="0%" stop-color="#533483"/>
+      <stop offset="100%" stop-color="#e94560"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
   <rect width="800" height="220" fill="url(#bg)" rx="12"/>
 
-  <!-- Decorative typography elements -->
-  <!-- Large "Aa" serif shape (left) -->
-  <text x="60" y="140" font-family="Georgia, serif" font-size="120" font-weight="bold" fill="url(#accent)" opacity="0.15">Aa</text>
+  <text x="60" y="140" font-family="Georgia,serif" font-size="120" font-weight="bold" fill="url(#accent)" opacity="0.15">Aa</text>
 
-  <!-- Small "Aa" sans-serif shape (center-left) -->
-  <text x="200" y="170" font-family="Helvetica, Arial, sans-serif" font-size="60" fill="url(#accent2)" opacity="0.12">Aa</text>
+  <text x="200" y="170" font-family="Helvetica,Arial,sans-serif" font-size="60" fill="url(#accent2)" opacity="0.12">Aa</text>
 
-  <!-- Monospace element (right decorative) -->
-  <text x="620" y="100" font-family="Courier New, monospace" font-size="28" fill="#e94560" opacity="0.15">{}</text>
+  <text x="620" y="100" font-family="Courier,monospace" font-size="28" fill="#e94560" opacity="0.15">{}</text>
 
-  <!-- Connecting line (pairing concept) -->
   <line x1="170" y1="155" x2="230" y2="155" stroke="url(#accent)" stroke-width="2" opacity="0.4" stroke-dasharray="4,3"/>
 
-  <!-- Font pairing visual: two overlapping letters -->
-  <text x="640" y="160" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#accent)" opacity="0.2">F</text>
-  <text x="670" y="160" font-family="Helvetica, Arial, sans-serif" font-size="72" fill="#533483" opacity="0.25">p</text>
+  <text x="640" y="160" font-family="Georgia,serif" font-size="72" font-weight="bold" fill="url(#accent)" opacity="0.2">F</text>
+  <text x="670" y="160" font-family="Helvetica,Arial,sans-serif" font-size="72" fill="#533483" opacity="0.25">p</text>
 
-  <!-- Decorative dots -->
   <circle cx="120" cy="50" r="3" fill="#e94560" opacity="0.3"/>
   <circle cx="300" cy="40" r="2" fill="#ff6b6b" opacity="0.25"/>
   <circle cx="500" cy="55" r="2.5" fill="#533483" opacity="0.3"/>
   <circle cx="700" cy="45" r="2" fill="#e94560" opacity="0.2"/>
 
-  <!-- Title -->
-  <text x="400" y="100" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">
-    fontpair
-  </text>
+  <text x="400" y="100" font-family="Helvetica,Arial,sans-serif" font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">fontpair</text>
 
-  <!-- Subtitle -->
-  <text x="400" y="138" font-family="Georgia, serif" font-size="18" fill="#b0b0c0" text-anchor="middle" letter-spacing="1">
-    Local Font Pairing Recommender
-  </text>
+  <text x="400" y="138" font-family="Georgia,serif" font-size="18" fill="#b0b0c0" text-anchor="middle" letter-spacing="1">Local Font Pairing Recommender</text>
 
-  <!-- Bottom accent line -->
   <rect x="300" y="160" width="200" height="3" rx="1.5" fill="url(#accent)" opacity="0.6"/>
 
-  <!-- Tagline -->
-  <text x="400" y="190" font-family="Courier New, monospace" font-size="13" fill="#666680" text-anchor="middle">
-    scan &middot; pair &middot; export
-  </text>
+  <text x="400" y="190" font-family="Courier,monospace" font-size="13" fill="#666680" text-anchor="middle">scan · pair · export</text>
 </svg>
